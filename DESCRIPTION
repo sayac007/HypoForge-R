@@ -1,0 +1,15 @@
+Package: hypoforgeR
+Title: Experimental Feature Hypotheses, Calendar and Media Transformations
+Version: 0.2.0
+Authors@R: person("HypoForge", "Contributors", email = "hypoforge-maintainers@users.noreply.github.com", role = c("aut", "cre"))
+Description: Native R implementation of exploratory feature generation, transformation,
+    numerical safety screening, redundancy filtering, calendar hypotheses,
+    media response transformations and rolling-origin ridge model tournaments.
+    Model-selection results are exploratory and require an untouched final test.
+License: Apache License (>= 2)
+Encoding: UTF-8
+Depends: R (>= 4.1)
+Suggests: testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Config/roxygen2/version: 8.1.1
+Roxygen: list(markdown = TRUE)
